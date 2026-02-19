@@ -2,6 +2,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+Acesse a aplicação online:
+
+https://seu-app.streamlit.app
+
+---
+
 # 🚀 Visão Geral
 
 Este projeto implementa uma solução completa de análise e previsão de risco de crédito utilizando Machine Learning, Dashboard Executivo e Aplicação Interativa.
