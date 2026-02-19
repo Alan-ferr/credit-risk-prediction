@@ -134,6 +134,9 @@ Simular uma ferramenta utilizada por:
 
 Para monitoramento e tomada de decisão.
 
+## Visão Geral
+
+![Dashboard](assets/dashboard.png)
 ---
 
 # 💻 Aplicação Interativa (Streamlit)
@@ -157,6 +160,12 @@ O sistema retorna:
 - Probabilidade de inadimplência  
 - Classificação de risco  
 - Score de crédito
+
+
+## Demonstração
+
+![Streamlit Demo](assets/streamlit-demo.gif)
+
 ---
 
 # 🧠 Arquitetura da Solução
