@@ -14,15 +14,18 @@ st.set_page_config(
     layout="wide"
 )
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# ============================
-# Load data
+
+#load data
+
 data_path = os.path.join(BASE_DIR, "data", "credit_clean.csv")
+
 df = pd.read_csv(data_path)
+
 
 # Load model
 model_path = os.path.join(BASE_DIR, "model.pkl")
 model = pickle.load(open(model_path, "rb"))
-# ============================
+
 # HEADER
 # ============================
 
