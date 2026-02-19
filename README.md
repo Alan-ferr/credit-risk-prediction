@@ -218,6 +218,10 @@ Resultado obtido:
     │
     ├── .vscode/ # Configurações do VSCode
     │
+    ├── assets
+    │   ├── dashboard.png
+    │   └── streamlit-demo.gif
+    │
     ├── credit-risk-app-streamlit/ # Aplicação Streamlit
     │ ├── app.py # Interface principal do Streamlit
     │ ├── model.pkl # Modelo treinado
