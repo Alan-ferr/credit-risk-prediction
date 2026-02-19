@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os
 
 # ============================
 # CONFIG PAGE
@@ -12,13 +13,15 @@ st.set_page_config(
     page_icon="💳",
     layout="wide"
 )
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # ============================
-# LOAD MODEL
-# ============================
+# Load data
+data_path = os.path.join(BASE_DIR, "data", "credit_clean.csv")
+df = pd.read_csv(data_path)
 
-model = pickle.load(open("model.pkl", "rb"))
-
+# Load model
+model_path = os.path.join(BASE_DIR, "model.pkl")
+model = pickle.load(open(model_path, "rb"))
 # ============================
 # HEADER
 # ============================
