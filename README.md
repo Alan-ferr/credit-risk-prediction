@@ -6,7 +6,7 @@
 
 Acesse a aplicação online:
 
-https://seu-app.streamlit.app
+https://credit-risk-prediction-witrsuhhpfncwsne3brjpc.streamlit.app/
 
 ---
 
